@@ -26,27 +26,38 @@
 
 ---
 
-## 📦 Setup Instructions
+## 🚀 Getting Started
 
-1. **Clone the repository**
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/insightbot.git
 cd insightbot
-
-2. **Install dependencies**
-    pip install -r requirements1.txt
-3. Set your Google API key
+2. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements1.txt
+3. Set Your Google API Key
 Create a .env file in the root directory and add:
-GOOGLE_API_KEY=your_google_api_key
-Running the App
-4. Run the version without feedback:
-streamlit run app-no-feedback.py
-5. Run the version with feedback:
-streamlit run app-feedback.py
 
-Example Workflow
-Upload a .pdf or .txt file or enter a website URL.
+env
+Copy
+Edit
+GOOGLE_API_KEY=your_google_api_key
+▶️ Running the App
+Without Feedback
+bash
+Copy
+Edit
+streamlit run app-no-feedback.py
+With Feedback
+bash
+Copy
+Edit
+streamlit run app-feedback.py
+🧪 Example Workflow
+Upload a .pdf, .txt file, or enter a website URL.
 
 The app extracts, chunks, embeds, and indexes the content.
 
@@ -56,3 +67,7 @@ InsightBot fetches relevant context and answers using Gemini LLM.
 
 📄 License
 This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
