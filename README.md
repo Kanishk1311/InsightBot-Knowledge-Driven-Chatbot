@@ -33,30 +33,26 @@
 ```bash
 git clone https://github.com/yourusername/insightbot.git
 cd insightbot
-2. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements1.txt
-3. Set Your Google API Key
-Create a .env file in the root directory and add:
 
+###2. Install Dependencies
+bash
+pip install -r requirements1.txt
+
+###3. Set Your Google API Key
+Create a .env file in the root directory and add:
 env
-Copy
-Edit
 GOOGLE_API_KEY=your_google_api_key
-▶️ Running the App
-Without Feedback
+
+##▶️ Running the App
+###Without Feedback
 bash
-Copy
-Edit
 streamlit run app-no-feedback.py
-With Feedback
+
+###With Feedback
 bash
-Copy
-Edit
 streamlit run app-feedback.py
-🧪 Example Workflow
+
+##🧪 Example Workflow
 Upload a .pdf, .txt file, or enter a website URL.
 
 The app extracts, chunks, embeds, and indexes the content.
@@ -65,9 +61,6 @@ Ask a question.
 
 InsightBot fetches relevant context and answers using Gemini LLM.
 
-📄 License
+##📄 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
