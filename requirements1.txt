@@ -1,0 +1,9 @@
+streamlit
+faiss-cpu
+numpy
+langchain
+langchain-google-genai
+google-generativeai
+bs4
+python-dotenv
+pymupdf
